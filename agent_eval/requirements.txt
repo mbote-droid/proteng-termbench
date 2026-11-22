@@ -1,2 +1,2 @@
 # Only for --provider anthropic. Ollama and Gemini use the standard library.
-anthropic>=1.0,<2
+anthropic>=2.11.0,<3
