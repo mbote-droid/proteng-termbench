@@ -1,0 +1,13 @@
+{
+  "baseline_s": 20.0,
+  "association_s": 120.0,
+  "dissociation_s": 300.0,
+  "sampling_interval_s": 1.0,
+  "cycle_0": "blank buffer injection (concentration 0)",
+  "time_zero": "start of analyte injection in every cycle",
+  "allowed_models": [
+    "one_to_one",
+    "mass_transport",
+    "two_site"
+  ]
+}

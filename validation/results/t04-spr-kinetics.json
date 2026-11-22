@@ -1,0 +1,255 @@
+{
+ "methods": {
+  "reference": {
+   "runs": [
+    {
+     "failed": [],
+     "measured": {
+      "KD": [
+       0.0019314571390368091,
+       0.12
+      ],
+      "KD_CONSISTENT": [
+       0.0,
+       0.01
+      ],
+      "KINETICS": [
+       0.06813211116188377,
+       1.0
+      ],
+      "UNCERTAINTY": [
+       1.0137464343865397,
+       2.0
+      ]
+     },
+     "seconds": 5.1,
+     "seed": "d7cf51a3739afdf78456f494c1ead152"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "SITES": [
+       0.005232237431221032,
+       0.1
+      ]
+     },
+     "seconds": 6.2,
+     "seed": "00dc780dd8b69f56bd8f19b9a584dc96"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "KD": [
+       0.0018343552785341462,
+       0.12
+      ],
+      "KD_CONSISTENT": [
+       0.0,
+       0.01
+      ],
+      "KINETICS": [
+       0.021068126143515217,
+       1.0
+      ],
+      "UNCERTAINTY": [
+       1.0154074504250767,
+       2.0
+      ]
+     },
+     "seconds": 16.5,
+     "seed": "0e389ff0509191dc16d4f9f2f435f660"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "KD": [
+       0.0062234337128813585,
+       0.12
+      ],
+      "KD_CONSISTENT": [
+       0.0,
+       0.01
+      ],
+      "KINETICS": [
+       0.12807143465526577,
+       1.0
+      ],
+      "UNCERTAINTY": [
+       1.0901192715093704,
+       2.0
+      ]
+     },
+     "seconds": 8.1,
+     "seed": "92a737951f63ab2f6647bdbf1c9f1dfc"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "KD": [
+       0.0013673500273584742,
+       0.12
+      ],
+      "KD_CONSISTENT": [
+       0.0,
+       0.01
+      ],
+      "KINETICS": [
+       0.01072921372254839,
+       1.0
+      ],
+      "UNCERTAINTY": [
+       1.0142459079392014,
+       2.0
+      ]
+     },
+     "seconds": 9.9,
+     "seed": "8c8a8132d08fe2baccd311dd2cc96d58"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "SITES": [
+       0.0034796053174431796,
+       0.1
+      ]
+     },
+     "seconds": 6.1,
+     "seed": "552e1fa7c8955c24257fc8fb850ee916"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "KD": [
+       0.004586974578511953,
+       0.12
+      ],
+      "KD_CONSISTENT": [
+       0.0,
+       0.01
+      ],
+      "KINETICS": [
+       0.026916443738422186,
+       1.0
+      ],
+      "UNCERTAINTY": [
+       1.0173348082372675,
+       2.0
+      ]
+     },
+     "seconds": 10.0,
+     "seed": "79563290d4b721cec921a8a675055557"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "KD": [
+       0.0024465545005051895,
+       0.12
+      ],
+      "KD_CONSISTENT": [
+       0.0,
+       0.01
+      ],
+      "KINETICS": [
+       0.01601497969277494,
+       1.0
+      ],
+      "UNCERTAINTY": [
+       1.002498843371242,
+       2.0
+      ]
+     },
+     "seconds": 10.7,
+     "seed": "d0d7211b0aa3eb7337e8be0da45649db"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "SITES": [
+       0.0003509223996513988,
+       0.1
+      ]
+     },
+     "seconds": 6.8,
+     "seed": "c8d1e1f6de623c03c620ec651300ddb9"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "SITES": [
+       0.000983771449066806,
+       0.1
+      ]
+     },
+     "seconds": 6.8,
+     "seed": "cc150f2436c98ca7f9e185ad8a634103"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "SITES": [
+       0.0011275849207885713,
+       0.1
+      ]
+     },
+     "seconds": 7.4,
+     "seed": "f445ceee326fe1e2d8b6803612192610"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "SITES": [
+       0.0007815756617185476,
+       0.1
+      ]
+     },
+     "seconds": 6.9,
+     "seed": "cb46422424d1b4cf3b7676503440093e"
+    }
+   ],
+   "summary": {
+    "failures_by_check": {},
+    "max_seconds": 16.5,
+    "n": 12,
+    "pass_rate_wilson95": [
+     0.758,
+     1.0
+    ],
+    "passed": 12
+   }
+  }
+ },
+ "provenance": {
+  "agent_requirements_sha256": "c46d6c06895500d43dce0c821527885eb306a6b7e75d5e5f9fe317ef50b73f54",
+  "argv": [
+   "validation/campaign.py",
+   "--out",
+   "validation/results",
+   "--n",
+   "30",
+   "--tasks",
+   "t02-stability-design",
+   "t03-md-switch-kinetics",
+   "t04-spr-kinetics",
+   "t05-qsar-scaffold-hop",
+   "t06-inhibitor-mechanism"
+  ],
+  "git": {
+   "commit": null,
+   "dirty": false
+  },
+  "octave": null,
+  "packages": {
+   "numpy": "2.5.3",
+   "pint": "0.26.1",
+   "protengbench": "0.2.0",
+   "scipy": "1.18.1"
+  },
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "python": "3.13.18",
+  "utc": "2026-11-08T23:52:27Z",
+  "uv_lock_sha256": "b975b4661dab772309e66d373317af9e0243f0e893bfc8c2168a6864242ed7cc"
+ },
+ "task": "t04-spr-kinetics",
+ "version": "1.0.0"
+}

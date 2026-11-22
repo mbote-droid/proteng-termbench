@@ -1,0 +1,35 @@
+schema_version = "1.3"
+source = "https://github.com/mbote-droid/proteng-termbench"
+artifacts = ["/app/spr_fit.py"]
+
+[task]
+name = "proteng-termbench/t04-spr-kinetics"
+authors = [{ name = "Samuel Ngigi Mbote", email = "mbotesamuel9@gmail.com" }]
+description = "Fit surface plasmon resonance data with bulk shift, drift and offsets, select among one-to-one, mass-transport and two-site models, and report kinetics with honest errors; graded against the simulation truth."
+keywords = ["spr", "binding-kinetics", "model-selection", "fisher-information", "kon-koff", "biophysics"]
+
+[metadata]
+task_version = "1.0.0"
+domain = "biophysics"
+discipline = "computational protein engineering"
+skills = ["ODE fitting", "global fitting", "model selection", "parameter uncertainty"]
+numerical_methods = ["global least squares", "AICc", "Fisher information standard errors"]
+difficulty = "hard"
+difficulty_explanation = "Bulk shift and drift must be modelled, the right binding model chosen from residual structure, and uncertainty reported honestly (neither over-confident nor absurdly wide)."
+expected_expert_minutes = 75
+reward = "binary: 1 only if every check passes on every hidden case"
+
+[agent]
+timeout_sec = 3600.0
+network_mode = "no-network"
+
+[verifier]
+timeout_sec = 1800.0
+environment_mode = "separate"
+network_mode = "no-network"
+
+[environment]
+cpus = 1
+memory_mb = 4096
+storage_mb = 4096
+workdir = "/app"

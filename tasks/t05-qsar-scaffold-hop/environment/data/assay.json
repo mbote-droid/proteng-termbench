@@ -1,0 +1,7 @@
+{
+  "target": "kinase, biochemical IC50 assay",
+  "activity": "pIC50 = -log10(IC50 in mol/L), higher is more potent",
+  "train_note": "several rows can be repeat measurements of one compound",
+  "test_note": "test compounds come from chemical cores absent from the training table",
+  "top_n": 20
+}

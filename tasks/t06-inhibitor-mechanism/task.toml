@@ -1,0 +1,35 @@
+schema_version = "1.3"
+source = "https://github.com/mbote-droid/proteng-termbench"
+artifacts = ["/app/inhibitor_fit.py"]
+
+[task]
+name = "proteng-termbench/t06-inhibitor-mechanism"
+authors = [{ name = "Samuel Ngigi Mbote", email = "mbotesamuel9@gmail.com" }]
+description = "From a plate of fluorescence progress curves, identify the inhibition mechanism, estimate Km, kcat, Ki (and alpha), the IC50 and the Ki obtained from it; graded against the mass-action truth."
+keywords = ["enzyme-kinetics", "inhibition", "ic50", "ki", "tight-binding", "progress-curves"]
+
+[metadata]
+task_version = "1.0.0"
+domain = "enzymology"
+discipline = "computational protein engineering"
+skills = ["progress-curve fitting", "mechanism discrimination", "Cheng-Prusoff", "Morrison equation"]
+numerical_methods = ["integrated rate-law global fit", "AICc model comparison", "tight-binding correction"]
+difficulty = "hard"
+difficulty_explanation = "Substrate depletion bends the curves and tight binding breaks the textbook equations; the Ki from IC50 must use the equation for the identified mechanism."
+expected_expert_minutes = 90
+reward = "binary: 1 only if every check passes on every hidden case"
+
+[agent]
+timeout_sec = 3600.0
+network_mode = "no-network"
+
+[verifier]
+timeout_sec = 1800.0
+environment_mode = "separate"
+network_mode = "no-network"
+
+[environment]
+cpus = 1
+memory_mb = 4096
+storage_mb = 4096
+workdir = "/app"

@@ -1,0 +1,35 @@
+schema_version = "1.3"
+source = "https://github.com/mbote-droid/proteng-termbench"
+artifacts = ["/app/triage.py"]
+
+[task]
+name = "proteng-termbench/t01-model-triage"
+authors = [{ name = "Samuel Ngigi Mbote", email = "mbotesamuel9@gmail.com" }]
+description = "Align a predicted structure to its experimental reference without a residue map, then diagnose how the model is wrong; graded against hidden cases."
+keywords = ["structure-prediction", "rmsd", "tm-score", "superposition", "domain-motion", "model-quality"]
+
+[metadata]
+task_version = "1.0.0"
+domain = "structural biology"
+discipline = "computational protein engineering"
+skills = ["sequence alignment", "Kabsch superposition", "TM-score", "rigid-body segmentation"]
+numerical_methods = ["affine-gap pairwise alignment", "iterative superposition", "hinge-axis rotation angle"]
+difficulty = "hard"
+difficulty_explanation = "Needs a residue pairing found from sequence (numbering and tags differ), a TM-score normalised correctly, and a diagnosis that one global superposition cannot give."
+expected_expert_minutes = 60
+reward = "binary: 1 only if every check passes on every hidden case"
+
+[agent]
+timeout_sec = 3600.0
+network_mode = "no-network"
+
+[verifier]
+timeout_sec = 1800.0
+environment_mode = "separate"
+network_mode = "no-network"
+
+[environment]
+cpus = 1
+memory_mb = 4096
+storage_mb = 4096
+workdir = "/app"

@@ -1,0 +1,861 @@
+{
+ "methods": {
+  "reference": {
+   "runs": [
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0008851998163291741,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.6,
+     "seed": "2990f21202e8cf222d61e057472670e9"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.005116005071599261,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.6,
+     "seed": "5dac56fc1a595cda9a814d8aa2f8d4ef"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0014638268177932234,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.4,
+     "seed": "1fcc3f0afd5871cca756392374a628ee"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0021581875264222727,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.3,
+     "seed": "744a9da0063d4b7d944ede8d62467f76"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0013703576247499072,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.4,
+     "seed": "60694d02c221044000e358976db07b83"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0015311964390636312,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 3.3,
+     "seed": "65159f41704223167f086f9b69730fad"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0013257767032235357,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 3.0,
+     "seed": "2a01aecc23ec90a0500725ba4a3419a2"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.002159551853250896,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 3.2,
+     "seed": "a94ea8966d7156294675c17c278a2af1"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0019954207734843576,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 3.2,
+     "seed": "3631ca1bda10b7cbd3f5dd7cf19fefde"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0028307316704434538,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.6,
+     "seed": "b5368ddc77f268783f6f23e4cf1e7017"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.004990142453569879,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 3.2,
+     "seed": "dc9f2eee6585d25ccdaae7da77d26aae"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.002077544973707268,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 3.1,
+     "seed": "172c967287d14235f53daf6967e35429"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0012751882240272794,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.5,
+     "seed": "6bb13e2886f9d65d382545e1538835ed"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0034194928684933013,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.9,
+     "seed": "8cb67609a57dde33c606d02e9014094f"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0043199087222798305,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.7,
+     "seed": "81e886fe38a2a72459909b91cf514614"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.004041776468246772,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.9,
+     "seed": "b006a9d29af2c2f89e443357a14df074"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.001916499310315789,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 3.0,
+     "seed": "4c7b7f3c84f7a5c3a5391778b4500221"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0017363378779753358,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.9,
+     "seed": "185477155aba429a0082bd52dcdb5e09"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0008272189767113414,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 3.2,
+     "seed": "b20e643fe1979bc4c50352cfbb2bd465"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0013932712869562103,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.8,
+     "seed": "3b7c7f50a5b3b1da313fdd5a007f9958"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0031808158397741426,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 3.1,
+     "seed": "5e9066fbec3c0fabc7f807ff9cb12137"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0029971870997329564,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.8,
+     "seed": "4e8127556797a3a9c5161bbdf5da1ead"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.003273763100916982,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.5,
+     "seed": "1e99e56e28782da1fc3fbc07cfc4e042"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0014009452576518866,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.5,
+     "seed": "dd05e97b94f5fc309cc2fd7859fc75b3"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0023579394216917127,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.9,
+     "seed": "7e784a950fb4696a5ec3ed906c5ac7b0"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0023638533320244903,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.6,
+     "seed": "58aac58c869d5469141810335d0574a3"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.002201797268454042,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.7,
+     "seed": "f23249444ee1931d0c0820c2b323c3a5"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.0011353515922709612,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.9,
+     "seed": "cf4be949a7777a3c7685502630e47b6c"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.001652584191238815,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.8,
+     "seed": "97bb28e62ab01b3835f740d0943faa7f"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "POPULATION": [
+       0.0,
+       0.03
+      ],
+      "RATES": [
+       0.0,
+       0.3
+      ],
+      "RMSF": [
+       0.002867352210048857,
+       0.1
+      ],
+      "STATES": [
+       1.0,
+       0.97
+      ],
+      "SWITCH_RESIDUES": [
+       0,
+       1
+      ]
+     },
+     "seconds": 2.4,
+     "seed": "362727c2ec1540e24a30251d10008f88"
+    }
+   ],
+   "summary": {
+    "failures_by_check": {},
+    "max_seconds": 3.3,
+    "n": 30,
+    "pass_rate_wilson95": [
+     0.886,
+     1.0
+    ],
+    "passed": 30
+   }
+  }
+ },
+ "provenance": {
+  "agent_requirements_sha256": "c46d6c06895500d43dce0c821527885eb306a6b7e75d5e5f9fe317ef50b73f54",
+  "argv": [
+   "validation/campaign.py",
+   "--out",
+   "validation/results",
+   "--n",
+   "30",
+   "--tasks",
+   "t02-stability-design",
+   "t03-md-switch-kinetics",
+   "t04-spr-kinetics",
+   "t05-qsar-scaffold-hop",
+   "t06-inhibitor-mechanism"
+  ],
+  "git": {
+   "commit": null,
+   "dirty": false
+  },
+  "octave": null,
+  "packages": {
+   "numpy": "2.5.3",
+   "pint": "0.26.1",
+   "protengbench": "0.2.0",
+   "scipy": "1.18.1"
+  },
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "python": "3.13.18",
+  "utc": "2026-11-08T23:50:57Z",
+  "uv_lock_sha256": "b975b4661dab772309e66d373317af9e0243f0e893bfc8c2168a6864242ed7cc"
+ },
+ "task": "t03-md-switch-kinetics",
+ "version": "1.0.0"
+}

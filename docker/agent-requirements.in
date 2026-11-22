@@ -1,0 +1,6 @@
+# Packages every agent environment ships. Instructions name what a task may rely on.
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn
+biopython
+rdkit

@@ -1,0 +1,92 @@
+name: ci
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 3 * * *"  # nightly: flakiness, dependency drift, validation campaign
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv sync --frozen
+      - run: make lint
+      - run: make typecheck
+      - run: make test
+
+  sandbox:
+    # The verifier's configuration: grader as root, submission as `sandbox`,
+    # interpreter with exactly the agent image's packages.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv sync --frozen
+      - name: sandbox user and agent interpreter
+        run: |
+          sudo useradd --system --no-create-home --shell /usr/sbin/nologin sandbox
+          sudo "$(command -v uv)" venv /opt/agent-python --python 3.12
+          sudo "$(command -v uv)" pip install --python /opt/agent-python/bin/python \
+            --require-hashes -r docker/agent-requirements.txt
+          sudo chmod -R a+rX /opt/agent-python
+      - name: runner and isolation tests as root
+        run: sudo -E "$(command -v uv)" run --frozen pytest -q tests/unit/test_runner.py tests/unit/test_cli_isolation.py
+      - name: grade a reference as the unprivileged user
+        run: |
+          sudo -E "$(command -v uv)" run --frozen proteng grade t05-qsar-scaffold-hop \
+            --submission tasks/t05-qsar-scaffold-hop/solution/qsar_model.py \
+            --seeds tasks/t05-qsar-scaffold-hop/tests/dev_seeds.txt \
+            --sandbox-user sandbox --python /opt/agent-python/bin/python
+
+  reproducibility:
+    # Grade the same submission twice in separate processes; verdicts must be byte-identical.
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        include:
+          - {task: t01-model-triage, submission: tasks/t01-model-triage/solution/triage.py}
+          - {task: t03-md-switch-kinetics, submission: tasks/t03-md-switch-kinetics/solution/switch_analysis.py}
+          - {task: t05-qsar-scaffold-hop, submission: tasks/t05-qsar-scaffold-hop/solution/qsar_model.py}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv sync --frozen
+      - name: grade twice
+        run: |
+          for run in 1 2; do
+            uv run --frozen proteng grade ${{ matrix.task }} \
+              --submission ${{ matrix.submission }} \
+              --seeds tasks/${{ matrix.task }}/tests/dev_seeds.txt \
+              --trusted --verdict "verdict-${run}.json"
+          done
+          sha256sum verdict-1.json verdict-2.json
+          cmp verdict-1.json verdict-2.json
+
+  validation:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv sync --frozen
+      - run: make validate N=30
+      - uses: actions/upload-artifact@v4
+        with:
+          name: validation
+          path: |
+            validation/results
+            docs/VALIDATION_REPORT.md

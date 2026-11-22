@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use ProtEng-TermBench, please cite it as below."
+title: "ProtEng-TermBench: validated terminal tasks for protein engineering and drug discovery agents"
+type: software
+license: MIT
+authors:
+  - family-names: Mbote
+    given-names: Samuel Ngigi
+    email: mbotesamuel9@gmail.com
+version: 0.2.0
+repository-code: "https://github.com/mbote-droid/proteng-termbench"
+keywords:
+  - benchmark
+  - protein engineering
+  - drug discovery
+  - AI agents
+  - grader validation

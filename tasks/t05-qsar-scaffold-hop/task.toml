@@ -1,0 +1,35 @@
+schema_version = "1.3"
+source = "https://github.com/mbote-droid/proteng-termbench"
+artifacts = ["/app/qsar_model.py"]
+
+[task]
+name = "proteng-termbench/t05-qsar-scaffold-hop"
+authors = [{ name = "Samuel Ngigi Mbote", email = "mbotesamuel9@gmail.com" }]
+description = "Build and honestly validate a QSAR model on four compound series, predict two unseen series, nominate the top 20, and state how well you expect to do; graded against hidden activities."
+keywords = ["qsar", "drug-discovery", "scaffold-hopping", "cross-validation", "cheminformatics", "model-validation"]
+
+[metadata]
+task_version = "1.0.0"
+domain = "drug discovery"
+discipline = "computational protein engineering"
+skills = ["RDKit", "data standardisation", "grouped cross-validation", "descriptor design"]
+numerical_methods = ["salt stripping and duplicate merging", "substituent-level descriptors", "leave-one-core-out validation"]
+difficulty = "hard"
+difficulty_explanation = "The training table has duplicates and salt forms, half of the test compounds carry unseen substituents, and the claimed performance is checked against what is realised on new cores."
+expected_expert_minutes = 90
+reward = "binary: 1 only if every check passes on every hidden case"
+
+[agent]
+timeout_sec = 3600.0
+network_mode = "no-network"
+
+[verifier]
+timeout_sec = 1800.0
+environment_mode = "separate"
+network_mode = "no-network"
+
+[environment]
+cpus = 1
+memory_mb = 4096
+storage_mb = 4096
+workdir = "/app"

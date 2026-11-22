@@ -1,0 +1,1039 @@
+{
+ "methods": {
+  "additive_top5": {
+   "runs": [
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       4.598580555391675,
+       2.5
+      ],
+      "STABILISED": [
+       0.5508314923157482,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "889a1992c8137644c2fd0299c20c13d0"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       1.817968446438174,
+       2.5
+      ],
+      "STABILISED": [
+       0.8412221971388488,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "b1c45578c4a303be16e420d202a54b68"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       4.190412809651611,
+       2.5
+      ],
+      "STABILISED": [
+       0.5802914797810306,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "f725797a8608fdd73fe17f5b5810d89b"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       1.9111820010248604,
+       2.5
+      ],
+      "STABILISED": [
+       0.653409581902449,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "24c1d111a6814061046d254e5501c189"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       3.0586875466370333,
+       2.5
+      ],
+      "STABILISED": [
+       0.7617215961206205,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "a0f0b847696e317f7a0f7dcf3579fe30"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.79787364488827,
+       2.5
+      ],
+      "STABILISED": [
+       0.5873858693615933,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "b12b2443041b476308d9d4a75a0b3cc3"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.234728360318451,
+       2.5
+      ],
+      "STABILISED": [
+       0.8034540849783406,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "a591a97e7883c06f26cbddc9384c39c5"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       3.1793839774889054,
+       2.5
+      ],
+      "STABILISED": [
+       0.6992541166193151,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "26e630e518dce742a2f887b9414ab62a"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.1696828450009775,
+       2.5
+      ],
+      "STABILISED": [
+       0.7405934696485028,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "6cfac5ec5f822d7da79eb43fde296e63"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.623978688332084,
+       2.5
+      ],
+      "STABILISED": [
+       0.7070441613320382,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "f30815df597655fd63b8dc1bdb3fdc6c"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       1.0393009836682872,
+       2.5
+      ],
+      "STABILISED": [
+       0.7460951646606373,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "61576e1330ede489792548c3db95bc42"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.389277954167614,
+       2.5
+      ],
+      "STABILISED": [
+       0.5653043254555821,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "0c0106d2facb4637cdbe868354027344"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       1.715376764788859,
+       2.5
+      ],
+      "STABILISED": [
+       0.7337285787191373,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "c6b5d031b886a633251b15c987aa9d98"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.9988658239102275,
+       2.5
+      ],
+      "STABILISED": [
+       0.6027245262902073,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "ec4226662719199cb3690cdf63b134fa"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.9126975476860935,
+       2.5
+      ],
+      "STABILISED": [
+       0.6196639892898245,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "6a026773aec0738041e0e61477787ec5"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       1.125435670092056,
+       2.5
+      ],
+      "STABILISED": [
+       0.8751293759452314,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "98fb27483be18c437c35cecd736b1f87"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.871486334659707,
+       2.5
+      ],
+      "STABILISED": [
+       0.6908505792035039,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "f7e9b90b4fdf5ba7afc7b12daac3083c"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       1.982463055613369,
+       2.5
+      ],
+      "STABILISED": [
+       0.6821280511729845,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "ce528b5c57b67b9431d7ce2919c1a885"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.1980157369136393,
+       2.5
+      ],
+      "STABILISED": [
+       0.7367216143257692,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "457fe66db465d008dda8ed0ae09c6f27"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       0.23821571422163146,
+       2.5
+      ],
+      "STABILISED": [
+       0.8332749780277677,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "596b3676bac85f1faa0d690f97d4726b"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       1.0912811292686246,
+       2.5
+      ],
+      "STABILISED": [
+       0.7844545664667364,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "16a7adc6ae918270818e3a7d66b675ff"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.357676768528707,
+       2.5
+      ],
+      "STABILISED": [
+       0.8020977605602859,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "e96371940511716860bf17d48dcaa5e4"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       7.095572875351678,
+       2.5
+      ],
+      "STABILISED": [
+       0.3908516057731573,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "8102ab8e57a7f3ffa75887f356201f7a"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.469969202664881,
+       2.5
+      ],
+      "STABILISED": [
+       0.6923604548004763,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "4653622b554308743d4ca84848f9f0d4"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       1.922135546135399,
+       2.5
+      ],
+      "STABILISED": [
+       0.8340151297835061,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "76ef6813995d4b1d5883b73c7324593d"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       2.9968336310111763,
+       2.5
+      ],
+      "STABILISED": [
+       0.5988672220932583,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "e6880889730cf48a3be10c1817e22f61"
+    },
+    {
+     "failed": [
+      "STABILISED"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       0.5749282563944167,
+       2.5
+      ],
+      "STABILISED": [
+       0.7545120579715088,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "2f376d7dfb27b2c419f8267478be9c9b"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       3.476590781196056,
+       2.5
+      ],
+      "STABILISED": [
+       0.6179235847173006,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "d40e78506ab87bfd98e6f4befc1278ca"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       4.406529782536708,
+       2.5
+      ],
+      "STABILISED": [
+       0.5979004014942432,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "02fc267b4be0eddc372542ba2e996e99"
+    },
+    {
+     "failed": [
+      "STABILISED",
+      "CALIBRATION"
+     ],
+     "measured": {
+      "CALIBRATION": [
+       4.851358423986573,
+       2.5
+      ],
+      "STABILISED": [
+       0.5492469805010262,
+       0.9
+      ]
+     },
+     "seconds": 0.0,
+     "seed": "15ff9fcf705cf8aed6ca9978fc2521c3"
+    }
+   ],
+   "summary": {
+    "failures_by_check": {
+     "CALIBRATION": 14,
+     "STABILISED": 30
+    },
+    "max_seconds": 0.0,
+    "n": 30,
+    "pass_rate_wilson95": [
+     0.0,
+     0.114
+    ],
+    "passed": 0
+   }
+  },
+  "reference": {
+   "runs": [
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.0751046943313381,
+       2.5
+      ],
+      "STABILISED": [
+       1.0,
+       0.9
+      ]
+     },
+     "seconds": 1.4,
+     "seed": "889a1992c8137644c2fd0299c20c13d0"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.8508782166828446,
+       2.5
+      ],
+      "STABILISED": [
+       0.9753747095968834,
+       0.9
+      ]
+     },
+     "seconds": 1.0,
+     "seed": "b1c45578c4a303be16e420d202a54b68"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.34671299114992077,
+       2.5
+      ],
+      "STABILISED": [
+       0.9949574906629522,
+       0.9
+      ]
+     },
+     "seconds": 1.0,
+     "seed": "f725797a8608fdd73fe17f5b5810d89b"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.49426140156759796,
+       2.5
+      ],
+      "STABILISED": [
+       0.9496243590550324,
+       0.9
+      ]
+     },
+     "seconds": 1.0,
+     "seed": "24c1d111a6814061046d254e5501c189"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.6982516093057362,
+       2.5
+      ],
+      "STABILISED": [
+       1.0,
+       0.9
+      ]
+     },
+     "seconds": 0.8,
+     "seed": "a0f0b847696e317f7a0f7dcf3579fe30"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.10840691192012854,
+       2.5
+      ],
+      "STABILISED": [
+       1.0,
+       0.9
+      ]
+     },
+     "seconds": 0.6,
+     "seed": "b12b2443041b476308d9d4a75a0b3cc3"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.3072852743201841,
+       2.5
+      ],
+      "STABILISED": [
+       0.9976657246258454,
+       0.9
+      ]
+     },
+     "seconds": 0.9,
+     "seed": "a591a97e7883c06f26cbddc9384c39c5"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       1.0453178049324678,
+       2.5
+      ],
+      "STABILISED": [
+       0.9393429940206561,
+       0.9
+      ]
+     },
+     "seconds": 0.5,
+     "seed": "26e630e518dce742a2f887b9414ab62a"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.9284633439489663,
+       2.5
+      ],
+      "STABILISED": [
+       0.9501787402119828,
+       0.9
+      ]
+     },
+     "seconds": 0.7,
+     "seed": "6cfac5ec5f822d7da79eb43fde296e63"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       1.0455507108606312,
+       2.5
+      ],
+      "STABILISED": [
+       0.9324070043973041,
+       0.9
+      ]
+     },
+     "seconds": 0.7,
+     "seed": "f30815df597655fd63b8dc1bdb3fdc6c"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.007396352090857903,
+       2.5
+      ],
+      "STABILISED": [
+       0.9838007388447074,
+       0.9
+      ]
+     },
+     "seconds": 1.2,
+     "seed": "61576e1330ede489792548c3db95bc42"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.36742938073239145,
+       2.5
+      ],
+      "STABILISED": [
+       0.9826074441496485,
+       0.9
+      ]
+     },
+     "seconds": 1.0,
+     "seed": "0c0106d2facb4637cdbe868354027344"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.704350798467581,
+       2.5
+      ],
+      "STABILISED": [
+       1.0,
+       0.9
+      ]
+     },
+     "seconds": 1.0,
+     "seed": "c6b5d031b886a633251b15c987aa9d98"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.3162368244712951,
+       2.5
+      ],
+      "STABILISED": [
+       0.9999999999999997,
+       0.9
+      ]
+     },
+     "seconds": 1.0,
+     "seed": "ec4226662719199cb3690cdf63b134fa"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.3477097589784982,
+       2.5
+      ],
+      "STABILISED": [
+       0.9417026666214773,
+       0.9
+      ]
+     },
+     "seconds": 0.9,
+     "seed": "6a026773aec0738041e0e61477787ec5"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       1.331155812951715,
+       2.5
+      ],
+      "STABILISED": [
+       0.952235748715212,
+       0.9
+      ]
+     },
+     "seconds": 1.1,
+     "seed": "98fb27483be18c437c35cecd736b1f87"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.5126766268483806,
+       2.5
+      ],
+      "STABILISED": [
+       0.9928115821661649,
+       0.9
+      ]
+     },
+     "seconds": 0.8,
+     "seed": "f7e9b90b4fdf5ba7afc7b12daac3083c"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.9905190376147015,
+       2.5
+      ],
+      "STABILISED": [
+       0.9732196119754705,
+       0.9
+      ]
+     },
+     "seconds": 0.9,
+     "seed": "ce528b5c57b67b9431d7ce2919c1a885"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.42042266769854736,
+       2.5
+      ],
+      "STABILISED": [
+       0.9863890229914247,
+       0.9
+      ]
+     },
+     "seconds": 1.1,
+     "seed": "457fe66db465d008dda8ed0ae09c6f27"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.47670603826898633,
+       2.5
+      ],
+      "STABILISED": [
+       0.9976273983420019,
+       0.9
+      ]
+     },
+     "seconds": 1.0,
+     "seed": "596b3676bac85f1faa0d690f97d4726b"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.4316865450947158,
+       2.5
+      ],
+      "STABILISED": [
+       0.9973113022569986,
+       0.9
+      ]
+     },
+     "seconds": 0.9,
+     "seed": "16a7adc6ae918270818e3a7d66b675ff"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.8002687975369167,
+       2.5
+      ],
+      "STABILISED": [
+       0.997328690707774,
+       0.9
+      ]
+     },
+     "seconds": 1.3,
+     "seed": "e96371940511716860bf17d48dcaa5e4"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.6166609447826246,
+       2.5
+      ],
+      "STABILISED": [
+       0.9396558725303398,
+       0.9
+      ]
+     },
+     "seconds": 1.6,
+     "seed": "8102ab8e57a7f3ffa75887f356201f7a"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.3107387398719357,
+       2.5
+      ],
+      "STABILISED": [
+       1.0,
+       0.9
+      ]
+     },
+     "seconds": 0.8,
+     "seed": "4653622b554308743d4ca84848f9f0d4"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.7155395180428573,
+       2.5
+      ],
+      "STABILISED": [
+       0.9571239389976115,
+       0.9
+      ]
+     },
+     "seconds": 1.3,
+     "seed": "76ef6813995d4b1d5883b73c7324593d"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.981191757791444,
+       2.5
+      ],
+      "STABILISED": [
+       0.9843277657485064,
+       0.9
+      ]
+     },
+     "seconds": 0.5,
+     "seed": "e6880889730cf48a3be10c1817e22f61"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.6221705632717854,
+       2.5
+      ],
+      "STABILISED": [
+       0.9823477273201274,
+       0.9
+      ]
+     },
+     "seconds": 1.0,
+     "seed": "2f376d7dfb27b2c419f8267478be9c9b"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.414360930552878,
+       2.5
+      ],
+      "STABILISED": [
+       0.9560538085087754,
+       0.9
+      ]
+     },
+     "seconds": 0.4,
+     "seed": "d40e78506ab87bfd98e6f4befc1278ca"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.16199666183052502,
+       2.5
+      ],
+      "STABILISED": [
+       1.0,
+       0.9
+      ]
+     },
+     "seconds": 0.9,
+     "seed": "02fc267b4be0eddc372542ba2e996e99"
+    },
+    {
+     "failed": [],
+     "measured": {
+      "CALIBRATION": [
+       0.8391903848705978,
+       2.5
+      ],
+      "STABILISED": [
+       1.0,
+       0.9
+      ]
+     },
+     "seconds": 1.2,
+     "seed": "15ff9fcf705cf8aed6ca9978fc2521c3"
+    }
+   ],
+   "summary": {
+    "failures_by_check": {},
+    "max_seconds": 1.6,
+    "n": 30,
+    "pass_rate_wilson95": [
+     0.886,
+     1.0
+    ],
+    "passed": 30
+   }
+  }
+ },
+ "provenance": {
+  "agent_requirements_sha256": "c46d6c06895500d43dce0c821527885eb306a6b7e75d5e5f9fe317ef50b73f54",
+  "argv": [
+   "validation/campaign.py",
+   "--out",
+   "validation/results",
+   "--n",
+   "30",
+   "--tasks",
+   "t01-model-triage",
+   "t02-stability-design"
+  ],
+  "git": {
+   "commit": null,
+   "dirty": false
+  },
+  "octave": null,
+  "packages": {
+   "numpy": "2.5.3",
+   "pint": "0.26.1",
+   "protengbench": "0.2.0",
+   "scipy": "1.18.1"
+  },
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "python": "3.13.18",
+  "utc": "2026-11-09T00:10:47Z",
+  "uv_lock_sha256": "b975b4661dab772309e66d373317af9e0243f0e893bfc8c2168a6864242ed7cc"
+ },
+ "task": "t02-stability-design",
+ "version": "1.0.0"
+}

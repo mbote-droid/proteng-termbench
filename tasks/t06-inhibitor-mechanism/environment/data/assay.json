@@ -1,0 +1,13 @@
+{
+  "enzyme_nM": 9.4453,
+  "background_RFU": 500.0,
+  "gain_RFU_per_uM_product": 2736.4528,
+  "ic50_substrate_uM": 10.0,
+  "mechanisms": [
+    "competitive",
+    "uncompetitive",
+    "mixed",
+    "noncompetitive"
+  ],
+  "note": "inhibitor_uM and substrate_uM are total concentrations at t = 0"
+}

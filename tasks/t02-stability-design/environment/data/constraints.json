@@ -1,0 +1,23 @@
+{
+  "max_substitutions": 5,
+  "forbidden_positions": [
+    1,
+    6,
+    8,
+    29,
+    32,
+    41,
+    44,
+    48,
+    68,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76
+  ],
+  "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+  "sign": "ddG < 0 means more stable than wild type (kcal/mol)"
+}
