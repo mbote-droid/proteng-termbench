@@ -43,11 +43,12 @@ def reference(task_id: str, seed: int) -> tuple[Any, Path]:
         task = registry.get(task_id)
         case = task.make_case(seed)
         base = _TMP / f"{task_id}-{seed:032x}"
+        shutil.rmtree(base, ignore_errors=True)  # a crashed earlier attempt leaves this behind
         (base / "in").mkdir(parents=True)
         (base / "out").mkdir()
         task.write_inputs(case, base / "in")
         script = ROOT / "tasks" / task_id / "solution" / SCRIPTS[task_id]
-        subprocess.run(
+        proc = subprocess.run(
             [
                 sys.executable,
                 str(script),
@@ -56,9 +57,15 @@ def reference(task_id: str, seed: int) -> tuple[Any, Path]:
                 "--outdir",
                 str(base / "out"),
             ],
-            check=True,
+            check=False,
             capture_output=True,
+            text=True,
         )
+        if proc.returncode != 0:
+            shutil.rmtree(base, ignore_errors=True)
+            raise RuntimeError(
+                f"reference solution for {task_id} exited {proc.returncode}:\n{proc.stderr[-2000:]}"
+            )
         _CACHE[key] = (case, base / "out")
     return _CACHE[key]
 
