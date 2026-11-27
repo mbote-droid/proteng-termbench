@@ -1,5 +1,13 @@
 # ProtEng-TermBench
 
+[![ci](https://github.com/mbote-droid/proteng-termbench/actions/workflows/ci.yml/badge.svg)](https://github.com/mbote-droid/proteng-termbench/actions/workflows/ci.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue)
+[![open in codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/mbote-droid/proteng-termbench)
+
+A benchmark for AI agents doing protein engineering and early drug discovery
+in a terminal, with graders that check the method as well as the answer.
+
 Six terminal tasks that follow one protein-engineering and early drug-discovery
 programme from a predicted structure to a characterised inhibitor. Each task
 is generated from a hidden seed, solved by an expert reference, and graded by
