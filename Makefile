@@ -14,7 +14,7 @@ help:  ## list targets
 	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  %-12s %s\n", $$1, $$2}'
 
 setup:  ## create the locked environment (uv.lock)
-	$(UV) sync --frozen
+	$(UV) sync --frozen --group agent
 
 lint:  ## ruff lint + format check, shellcheck
 	$(RUN) ruff check src tests tasks validation agent_eval
