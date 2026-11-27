@@ -44,7 +44,8 @@ def interval_svg(lo: float, hi: float, p: float) -> str:
     return (
         f'<svg width="{w + 4}" height="14" role="img" aria-label="{lo:.2f} to {hi:.2f}">'
         f'<line x1="2" y1="7" x2="{w + 2}" y2="7" stroke="#ccc"/>'
-        f'<line x1="{x0 + 2:.1f}" y1="7" x2="{x1 + 2:.1f}" y2="7" stroke="#3b6ea5" stroke-width="4"/>'
+        f'<line x1="{x0 + 2:.1f}" y1="7" x2="{x1 + 2:.1f}" y2="7" '
+        'stroke="#3b6ea5" stroke-width="4"/>'
         f'<circle cx="{xp + 2:.1f}" cy="7" r="3.5" fill="#1d3f6e"/></svg>'
     )
 
