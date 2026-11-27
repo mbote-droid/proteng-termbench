@@ -1,0 +1,18 @@
+site_name: ProtEng-TermBench
+site_description: Terminal tasks with validated graders for AI agents doing protein engineering and drug discovery
+site_url: https://mbote-droid.github.io/proteng-termbench/
+repo_url: https://github.com/mbote-droid/proteng-termbench
+docs_dir: docs
+theme:
+  name: material
+  features: [navigation.sections, content.code.copy]
+nav:
+  - Home: index.md
+  - Validation dashboard: dashboard.md
+  - Design: DESIGN.md
+  - Requirements: REQUIREMENTS.md
+  - Data: DATA.md
+  - Validation report: VALIDATION_REPORT.md
+markdown_extensions:
+  - tables
+  - md_in_html

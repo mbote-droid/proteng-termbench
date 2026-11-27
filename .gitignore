@@ -12,3 +12,5 @@ build/
 private_seeds.txt
 .envrc
 octave-workspace
+docs/dashboard.md
+site/
