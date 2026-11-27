@@ -12,7 +12,7 @@ jobs:
   check:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.12"
@@ -26,7 +26,7 @@ jobs:
     # interpreter with exactly the agent image's packages.
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.12"
@@ -57,7 +57,7 @@ jobs:
           - {task: t03-md-switch-kinetics, submission: tasks/t03-md-switch-kinetics/solution/switch_analysis.py}
           - {task: t05-qsar-scaffold-hop, submission: tasks/t05-qsar-scaffold-hop/solution/qsar_model.py}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.12"
@@ -78,7 +78,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 240
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.12"
