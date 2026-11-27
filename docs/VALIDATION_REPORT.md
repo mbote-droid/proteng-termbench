@@ -7,6 +7,7 @@ subprocess, single-threaded, exactly as the grader runs it.
 
 ## Results
 
+<!-- results:start -->
 | task | method | passed | 95% Wilson interval for the pass rate | checks that failed |
 |---|---|---|---|---|
 | t01-model-triage | reference | 30/30 | 0.886 to 1.000 | none |
@@ -17,6 +18,7 @@ subprocess, single-threaded, exactly as the grader runs it.
 | t05-qsar-scaffold-hop | reference | 30/30 | 0.886 to 1.000 | none |
 | t05-qsar-scaffold-hop | fingerprint random forest, random-split claim | 0/30 | 0.000 to 0.114 | DEDUP 30, HONESTY 29, RANK 3, SELECTION 2 |
 | t06-inhibitor-mechanism | reference | 7/7 | 0.646 to 1.000 | none |
+<!-- results:end -->
 
 The slow tasks (t04, t06) were run on fewer seeds because the reference fits
 take 15 to 75 seconds; their intervals are correspondingly wide and should be
