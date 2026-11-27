@@ -84,7 +84,7 @@ jobs:
           python-version: "3.12"
       - run: uv sync --frozen --group agent
       - run: make validate N=30
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: validation
           path: |
