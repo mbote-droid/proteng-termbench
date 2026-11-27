@@ -16,7 +16,7 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.12"
-      - run: uv sync --frozen
+      - run: uv sync --frozen --group agent
       - run: make lint
       - run: make typecheck
       - run: make test
@@ -61,7 +61,7 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.12"
-      - run: uv sync --frozen
+      - run: uv sync --frozen --group agent
       - name: grade twice
         run: |
           for run in 1 2; do
@@ -82,7 +82,7 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.12"
-      - run: uv sync --frozen
+      - run: uv sync --frozen --group agent
       - run: make validate N=30
       - uses: actions/upload-artifact@v4
         with:

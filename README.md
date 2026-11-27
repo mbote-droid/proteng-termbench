@@ -47,7 +47,7 @@ every hidden case. Diagnostics list which checks failed.
 ## Quick start
 
 ```bash
-uv sync --frozen
+uv sync --frozen --group agent
 uv run proteng list
 uv run proteng seeds new 3 --out /tmp/seeds.txt
 uv run proteng grade t05-qsar-scaffold-hop \
