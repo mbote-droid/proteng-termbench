@@ -116,3 +116,5 @@ and CI builds and runs the images.
 ## Citing
 
 See `CITATION.cff`. MIT licence.
+
+Docs and the validation dashboard: https://mbote-droid.github.io/proteng-termbench/
