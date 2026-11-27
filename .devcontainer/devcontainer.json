@@ -1,0 +1,11 @@
+{
+  "name": "proteng-termbench",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install uv && uv sync --frozen --group agent",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "charliermarsh.ruff"],
+      "settings": { "python.defaultInterpreterPath": ".venv/bin/python" }
+    }
+  }
+}
